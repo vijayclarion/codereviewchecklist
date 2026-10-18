@@ -1,0 +1,15 @@
+# Secrets - NEVER commit
+.env
+.env.local
+*.pem
+*.key
+*.pfx
+
+# Office lock files
+~$*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
